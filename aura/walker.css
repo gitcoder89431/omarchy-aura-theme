@@ -9,3 +9,11 @@ child:selected .item-box {
     margin-left: 4px;
     transition: margin-left 0.05s ease-out;
 }
+
+.input {
+    color: #54c59f;
+}
+
+.input placeholder {
+    color: #54c59f;
+}
