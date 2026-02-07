@@ -30,7 +30,8 @@ window#waybar {
   all: initial;
   padding: 0 6px;
   margin: 0 1.5px;
-  min-width: 9px;
+  min-width: 11px;
+  font-size: 13px;
 }
 
 #workspaces button.empty {
@@ -64,6 +65,7 @@ window#waybar {
 
 #workspaces button label {
   color: #8464c6;
+  font-size: 13px;
 }
 
 #cpu,
