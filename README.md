@@ -12,7 +12,7 @@ Aura theme for Omarchy.
 Option A: install from GitHub with Omarchy
 
 ```bash
-omarchy-theme install https://github.com/gitcoder89431/aura-omarchy-theme
+omarchy-theme install https://github.com/gitcoder89431/omarchy-aura-theme
 omarchy-theme-set aura
 ```
 
