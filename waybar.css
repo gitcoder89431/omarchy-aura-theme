@@ -4,3 +4,10 @@
 @define-color warning #ffca85;
 @define-color critical #ff6767;
 @define-color muted #4d4d4d;
+
+window#waybar {
+  background-color: alpha(@background, 0.78);
+  border-radius: 0 0 4px 4px;
+  border: 1px solid alpha(@accent, 0.35);
+  border-top: none;
+}

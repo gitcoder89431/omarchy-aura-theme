@@ -40,13 +40,14 @@ omarchy-theme-set aura
 ## What Is Included
 
 - Core palette (`colors.toml`)
-- Omarchy theme files (terminal, lockscreen, mako, walker, btop, vscode, neovim, obsidian)
+- Omarchy theme files (terminal, lockscreen, mako, walker, btop, vscode, neovim, obsidian, hyprland)
 - Wallpapers (`backgrounds/`)
-- `waybar.css` color tokens used by Waybar styles that import `~/.config/omarchy/current/theme/waybar.css`
+- `waybar.css` theme colors + bar container styling used by Waybar styles that import `~/.config/omarchy/current/theme/waybar.css`
 
 ## Optional Extras (Non-Personal)
 
-These are not required for the theme itself, but reproduce this setup's UI layer.
+These are not required for the theme itself, but reproduce this setup's full UI layer.
+The theme itself already applies Hyprland rounding/terminal opacity and Waybar container styling.
 
 - `extras/waybar/config.jsonc`
 - `extras/waybar/style.css`
