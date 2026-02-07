@@ -1,13 +1,24 @@
-@define-color selected-text #54c59f;
+@define-color selected-text #15141b;
+@define-color selected-bg #a277ff;
 @define-color text #a277ff;
 @define-color base #15141b;
 @define-color border #a277ff;
 @define-color foreground #a277ff;
 @define-color background #15141b;
 
+child:selected {
+    border-radius: 8px;
+    background-color: @selected-bg;
+    transition: background-color 0.08s ease-out;
+}
+
 child:selected .item-box {
     margin-left: 4px;
     transition: margin-left 0.05s ease-out;
+}
+
+child:selected .item-box * {
+    color: @selected-text;
 }
 
 .input {
