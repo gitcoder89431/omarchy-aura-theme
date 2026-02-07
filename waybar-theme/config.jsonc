@@ -22,6 +22,7 @@
     "format": "{icon}",
     "format-icons": {
       "default": "■",
+      "empty": "▪",
       "1": "■",
       "2": "■",
       "3": "■",
@@ -32,7 +33,7 @@
       "8": "■",
       "9": "■",
       "10": "■",
-      "active": "■"
+      "active": "▣"
     },
     "persistent-workspaces": {
       "1": [],
