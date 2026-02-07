@@ -1,0 +1,11 @@
+@define-color selected-text #a277ff;
+@define-color text #edecee;
+@define-color base #15141b;
+@define-color border #a277ff;
+@define-color foreground #edecee;
+@define-color background #15141b;
+
+child:selected {
+    background-color: alpha(@border, 0.12);
+    border-radius: 6px;
+}
