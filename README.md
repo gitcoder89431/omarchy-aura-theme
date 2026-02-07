@@ -44,10 +44,10 @@ omarchy-theme-set aura
 - Wallpapers (`backgrounds/`)
 - `waybar.css` theme colors + bar container styling used by Waybar styles that import `~/.config/omarchy/current/theme/waybar.css`
 
-## Optional Extras (Non-Personal)
+## Optional Extras
 
-These are not required for the theme itself, but reproduce this setup's full UI layer.
-The theme itself already applies Hyprland rounding/terminal opacity and Waybar container styling.
+These are optional add-ons to reproduce this setup's full UI layer.
+The theme itself already applies Hyprland rounding, terminal opacity, and Waybar container styling.
 
 - `extras/waybar/config.jsonc`
 - `extras/waybar/style.css`
