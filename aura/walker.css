@@ -4,3 +4,8 @@
 @define-color border #a277ff;
 @define-color foreground #a277ff;
 @define-color background #15141b;
+
+child:selected .item-box {
+    margin-left: 4px;
+    transition: margin-left 0.05s ease-out;
+}
