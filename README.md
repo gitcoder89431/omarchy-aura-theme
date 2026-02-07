@@ -73,12 +73,6 @@ omarchy-restart-waybar
 hyprctl reload
 ```
 
-Preview Walker selection contrast (invert style):
-
-```bash
-./scripts/walker-demo.sh
-```
-
 ## Notes
 
 - Repo is intentionally flat (theme files at repo root) so `omarchy-theme install` works out of the box.
