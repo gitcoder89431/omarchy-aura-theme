@@ -1,6 +1,11 @@
 # Aura (Omarchy Theme)
 
-Aura theme for Omarchy, plus optional non-personal UI extras.
+Aura theme for Omarchy.
+
+## Screenshots
+
+![Aura screenshot 1](./aura-1.png)
+![Aura screenshot 2](./aura-2.png)
 
 ## Install Theme
 
