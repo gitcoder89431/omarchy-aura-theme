@@ -1,0 +1,17 @@
+/* Aura Soft Dark accents for Obsidian */
+.theme-dark {
+  --background-primary: #21202e;
+  --background-primary-alt: #1c1b22;
+  --background-secondary: #1c1b22;
+  --background-secondary-alt: #15141b;
+  --text-normal: #edecee;
+  --text-muted: #bdbdbd;
+  --text-faint: #6d6d6d;
+  --text-accent: #a277ff;
+  --text-accent-hover: #8464c6;
+  --interactive-accent: #a277ff;
+  --interactive-accent-hover: #8464c6;
+  --selection-background: #3d375e7f;
+  --background-modifier-border: #2a253a;
+  --background-modifier-hover: #2a253a;
+}
