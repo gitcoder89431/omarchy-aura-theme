@@ -57,9 +57,9 @@ The theme itself already applies Hyprland rounding, terminal opacity, and Waybar
 
 ThemeManager+ compatibility layout is also included:
 
-- `aura/waybar-theme/config.jsonc`
-- `aura/waybar-theme/style.css`
-- `aura/starship-theme/starship.toml`
+- `waybar-theme/config.jsonc`
+- `waybar-theme/style.css`
+- `starship-theme/starship.toml`
 
 Apply extras:
 
