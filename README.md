@@ -19,8 +19,13 @@ omarchy-theme-set aura
 Option B: copy manually
 
 ```bash
-mkdir -p ~/.config/omarchy/themes
-cp -a aura ~/.config/omarchy/themes/
+mkdir -p ~/.config/omarchy/themes/aura
+rsync -a --delete \
+  --exclude '.git' \
+  --exclude 'README.md' \
+  --exclude 'aura-*.png' \
+  --exclude 'extras' \
+  /path/to/aura-omarchy-theme/ ~/.config/omarchy/themes/aura/
 omarchy-theme-set aura
 ```
 
@@ -28,11 +33,11 @@ Option C: symlink for local development
 
 ```bash
 mkdir -p ~/.config/omarchy/themes
-ln -s /path/to/aura-omarchy-theme/aura ~/.config/omarchy/themes/aura
+ln -s /path/to/aura-omarchy-theme ~/.config/omarchy/themes/aura
 omarchy-theme-set aura
 ```
 
-## What Is Included In `aura/`
+## What Is Included
 
 - Core palette (`colors.toml`)
 - Omarchy theme files (terminal, lockscreen, mako, walker, btop, vscode, neovim, obsidian)
@@ -63,5 +68,6 @@ hyprctl reload
 
 ## Notes
 
+- Repo is intentionally flat (theme files at repo root) so `omarchy-theme install` works out of the box.
 - Keep monitor layout (`~/.config/hypr/monitors.conf`) machine-specific.
-- Tune palette in `aura/colors.toml`.
+- Tune palette in `colors.toml`.
