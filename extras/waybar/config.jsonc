@@ -22,7 +22,7 @@
     "format": "{icon}",
     "format-icons": {
       "default": "■",
-      "empty": "▪",
+      "empty": "■",
       "1": "■",
       "2": "■",
       "3": "■",
