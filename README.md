@@ -59,7 +59,7 @@ ThemeManager+ compatibility layout is also included:
 
 - `waybar-theme/config.jsonc`
 - `waybar-theme/style.css`
-- `starship-theme/starship.toml`
+- `starship.toml`
 
 Apply extras:
 
