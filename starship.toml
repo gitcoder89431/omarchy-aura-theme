@@ -2,8 +2,8 @@
 
 add_newline = false
 format = '''
-[┌──](#c7a06f)$directory([─](#c7a06f)$git_branch)([─](#c7a06f)$git_status)
-[└─](#c7a06f) $character'''
+[┌──](yellow)$directory([─](yellow)$git_branch)([─](yellow)$git_status)
+[└─](yellow) $character'''
 
 [aws]
 format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
@@ -59,8 +59,8 @@ format = '\[[$symbol$loaded/$allowed]($style)\]'
 [directory]
 truncation_length = 2
 truncation_symbol = "…/"
-format = '[\[](#c7a06f)[ $path ]($style)[\]](#c7a06f)'
-style = 'bold #6cb2c7'
+format = '[\[](yellow)[ $path ]($style)[\]](yellow)'
+style = 'bold cyan'
 
 [docker_context]
 format = '\[[$symbol$context]($style)\]'
@@ -93,8 +93,8 @@ format = '\[[+$added]($added_style)\]\[[-$deleted]($deleted_style)\]'
 format = '\[[$symbol$account(@$domain)(\($region\))]($style)\]'
 
 [git_branch]
-format = '[\[](#c7a06f)[ $symbol$branch ]($style)[\]](#c7a06f)'
-style = 'bold #8464c6'
+format = '[\[](yellow)[ $symbol$branch ]($style)[\]](yellow)'
+style = 'bold magenta'
 symbol = ' '
 
 [git_commit]
@@ -107,24 +107,24 @@ format = '\[[+$added]($added_style)\]\[[-$deleted]($deleted_style)\]'
 format = '\[[$state ($progress_current/$progress_total)]($style)\]'
 
 [git_status]
-format = '([\[](#c7a06f) $all_status$ahead_behind [\]](#c7a06f))'
+format = '([\[](yellow) $all_status$ahead_behind [\]](yellow))'
 style = ''
-untracked  = "[?${count} ](#c55858)"
-modified   = "[${count}](#c7a06f)"
-staged     = "[+${count}](#54c59f)"
-renamed    = "[»${count}](#54c59f)"
-deleted    = "[✘${count}](#c55858)"
-conflicted = "[](#c55858)"
-ahead      = "[⇡${count}](#54c59f)"
-behind     = "[⇣${count}](#54c59f)"
-diverged   = "[⇕⇡${ahead_count}⇣${behind_count}](#54c59f)"
+untracked  = "[?${count} ](red)"
+modified   = "[${count}](yellow)"
+staged     = "[+${count}](green)"
+renamed    = "[»${count}](green)"
+deleted    = "[✘${count}](red)"
+conflicted = "[](red)"
+ahead      = "[⇡${count}](green)"
+behind     = "[⇣${count}](green)"
+diverged   = "[⇕⇡${ahead_count}⇣${behind_count}](green)"
 
 [gleam]
 format = '\[[$symbol($version)]($style)\]'
 
 [golang]
 format = '\[[go $version]($style)\]'
-style = '#6cb2c7'
+style = 'cyan'
 symbol = ''
 
 [gradle]
