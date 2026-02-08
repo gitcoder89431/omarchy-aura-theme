@@ -31,7 +31,7 @@ return {
 						vim.opt.rtp:prepend(aura_lazy)
 					end
 				end
-				vim.cmd.colorscheme("aura-soft-dark")
+				vim.cmd.colorscheme("aura-dark")
 			end,
 		},
 	},
